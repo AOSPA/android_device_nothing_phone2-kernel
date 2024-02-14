@@ -113,7 +113,7 @@
 /lib/modules/sensors_ssc.ko:
 /lib/modules/qcedev-mod.ko: /lib/modules/qce50.ko /lib/modules/sps_drv.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_dbl.ko /lib/modules/gh_msgq.ko /lib/modules/gh_arm_drv.ko
 /lib/modules/msm_dma_iommu_mapping.ko:
-/lib/modules/frpc-adsprpc.ko: /lib/modules/qcom_ramdump.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/qcom-scm.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_dbl.ko /lib/modules/gh_msgq.ko /lib/modules/gh_arm_drv.ko
+/lib/modules/frpc-adsprpc.ko: /lib/modules/qcom_ramdump.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/socinfo.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/qcom-scm.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_dbl.ko /lib/modules/gh_msgq.ko /lib/modules/gh_arm_drv.ko
 /lib/modules/qbt_handler.ko:
 /lib/modules/pinctrl-diwali.ko: /lib/modules/pinctrl-msm.ko /lib/modules/qcom-scm.ko
 /lib/modules/qcom-pon.ko: /lib/modules/reboot-mode.ko

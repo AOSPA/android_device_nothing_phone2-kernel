@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
 /*
- * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+ * Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
  * Copyright (c) 2017-2021, The Linux Foundation. All rights reserved.
  */
 
@@ -115,8 +115,16 @@ extern "C" {
  * @SDE_SYSCACHE_LLCC_EVA_RIGHT:Syscache type is eva right, LLCC_EVARGHT.
  */
 #define SDE_SYSCACHE_LLCC_DISP		0
-#define SDE_SYSCACHE_LLCC_EVA_LEFT	1
-#define SDE_SYSCACHE_LLCC_EVA_RIGHT	2
+#define SDE_SYSCACHE_LLCC_DISP_LEFT	1
+#define SDE_SYSCACHE_LLCC_DISP_RIGHT	2
+
+/**
+ * buffer modes for "buffer_mode" plane property
+ * @SDE_INDEPENDENT_BUFFER_MODE:Plane buffers are independent.
+ * @SDE_SINGLE_BUFFER_MODE:	All planes are on same buffer, same input fence.
+ */
+#define SDE_INDEPENDENT_BUFFER_MODE	0
+#define SDE_SINGLE_BUFFER_MODE		1
 
 /**
  * Bit masks for "src_config" property
@@ -388,7 +396,7 @@ struct sde_drm_scaler_v2 {
 };
 
 /* Number of dest scalers supported */
-#define SDE_MAX_DS_COUNT 2
+#define SDE_MAX_DS_COUNT 4
 
 /*
  * Destination scaler flag config
@@ -552,6 +560,11 @@ struct sde_drm_roi_v1 {
  * Define UBWC statistics config
  */
 #define UBWC_STATS_MAX_ROI		0x3
+
+/**
+ * sde fod dim layer
+ */
+#define FOD_PRESSED_LAYER_ZORDER	0x20000000u
 
 /**
  * struct sde_drm_ubwc_stats_roi - region of interest for ubwc stats

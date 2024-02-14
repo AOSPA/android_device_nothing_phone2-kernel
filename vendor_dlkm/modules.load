@@ -4,10 +4,10 @@ lzo.ko
 lzo-rle.ko
 msm_show_resume_irq.ko
 mhi_cntrl_qcom.ko
-mhi.ko
 mhi_dev_uci.ko
 mhi_dev_netdev.ko
 mhi_dev_dtr.ko
+mhi.ko
 phy-qcom-ufs-qmp-v4-lahaina.ko
 phy-qcom-ufs-qmp-v4-parrot.ko
 phy-qcom-ufs-qmp-v4-anarok.ko
@@ -229,8 +229,6 @@ snd-usb-audio-qmi.ko
 qrtr-smd.ko
 qrtr-mhi.ko
 qrtr-gunyah.ko
-qca_cld3_qca6490.ko
-qca_cld3_qca6490.ko
 q6_notifier_dlkm.ko
 spf_core_dlkm.ko
 audpkt_ion_dlkm.ko
@@ -264,8 +262,8 @@ wcd938x_slave_dlkm.ko
 wcd937x_dlkm.ko
 wcd937x_slave_dlkm.ko
 hdmi_dlkm.ko
-camera.ko
 msm-cvp.ko
+camera.ko
 gsim.ko
 ipam.ko
 ipanetm.ko
@@ -285,3 +283,4 @@ msm-eva.ko
 msm-mmrm.ko
 mmrm_test_module.ko
 msm_video.ko
+qca_cld3_qca6490.ko
