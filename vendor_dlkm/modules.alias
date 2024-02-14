@@ -412,6 +412,8 @@ alias of:N*T*Cqcom,wcn6750 icnss2
 alias of:N*T*Cqcom,wcn6750C* icnss2
 alias of:N*T*Cqcom,icnss icnss2
 alias of:N*T*Cqcom,icnssC* icnss2
+alias of:N*T*Cqcom,wcn6450 icnss2
+alias of:N*T*Cqcom,wcn6450C* icnss2
 alias amba:d???[37BF]B968 coresight_tpdm
 alias of:N*T*Cqcom,msm-cvp21 msm_cvp
 alias of:N*T*Cqcom,msm-cvp21C* msm_cvp
@@ -561,6 +563,8 @@ alias of:N*T*Cqcom,pm8450-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8450-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm7325-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm7325-gpioC* pinctrl_spmi_gpio
+alias of:N*T*Cqcom,pm7325b-gpio pinctrl_spmi_gpio
+alias of:N*T*Cqcom,pm7325b-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm6450-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm6450-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8550-gpio pinctrl_spmi_gpio
@@ -587,6 +591,8 @@ alias of:N*T*Cqcom,cdsp-loader cdsp_loader
 alias of:N*T*Cqcom,cdsp-loaderC* cdsp_loader
 alias of:N*T*Cqcom,qfprom nvmem_qfprom
 alias of:N*T*Cqcom,qfpromC* nvmem_qfprom
+alias of:N*T*Cqcom,ravelin-qfprom nvmem_qfprom
+alias of:N*T*Cqcom,ravelin-qfpromC* nvmem_qfprom
 alias of:N*T*Cqcom,waipio-videocc videocc_waipio
 alias of:N*T*Cqcom,waipio-videoccC* videocc_waipio
 alias of:N*T*Cqcom,cape-videocc videocc_waipio
@@ -634,6 +640,7 @@ alias usb:v03F0pA31Dd*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v1BC7p1041d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v1BC7p1061d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v1BC7p1071d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
+alias usb:v1BC7p1081d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v*p*d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias rpmsg:IPCRTR qrtr_smd
 alias of:N*T*Cqcom,adsp-loader adsp_loader_dlkm
@@ -731,5 +738,7 @@ alias of:N*T*Cqcom,sdhci-msm-v4 sdhci_msm
 alias of:N*T*Cqcom,sdhci-msm-v4C* sdhci_msm
 alias of:N*T*Cqcom,sdhci-msm-v5 sdhci_msm
 alias of:N*T*Cqcom,sdhci-msm-v5C* sdhci_msm
+alias of:N*T*Cqcom,sdm670-sdhci sdhci_msm
+alias of:N*T*Cqcom,sdm670-sdhciC* sdhci_msm
 alias of:N*T*Cqcom,sdm845-sdhci sdhci_msm
 alias of:N*T*Cqcom,sdm845-sdhciC* sdhci_msm

@@ -31,6 +31,7 @@
 /vendor/lib/modules/wsa883x_dlkm.ko: /vendor/lib/modules/swr_dlkm.ko /vendor/lib/modules/wcd_core_dlkm.ko
 /vendor/lib/modules/lpass_cdc_tx_macro_dlkm.ko: /vendor/lib/modules/lpass_cdc_dlkm.ko /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/mhi_dev_dtr.ko: /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
+/vendor/lib/modules/nothing_disk_usage.ko:
 /vendor/lib/modules/qrtr-mhi.ko: /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/qcom_cpuss_sleep_stats.ko:
 /vendor/lib/modules/guestvm_loader.ko: /vendor/lib/modules/mdt_loader.ko
@@ -43,7 +44,7 @@
 /vendor/lib/modules/qfprom-sys.ko:
 /vendor/lib/modules/lpass_cdc_wsa2_macro_dlkm.ko: /vendor/lib/modules/swr_ctrl_dlkm.ko /vendor/lib/modules/lpass_cdc_dlkm.ko /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/swr_dlkm.ko /vendor/lib/modules/wcd_core_dlkm.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/usb_bam.ko: /vendor/lib/modules/sps_drv.ko
-/vendor/lib/modules/leds-qti-flash.ko: /vendor/lib/modules/qti_battery_charger.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/panel_event_notifier.ko
+/vendor/lib/modules/leds-qti-flash.ko: /vendor/lib/modules/qti_battery_charger_main.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/hung_task_enh.ko:
 /vendor/lib/modules/qcom_iommu_debug.ko:
 /vendor/lib/modules/i3c-master-msm-geni.ko:
@@ -56,6 +57,7 @@
 /vendor/lib/modules/tfa98xx_dlkm.ko:
 /vendor/lib/modules/msm_ext_display.ko:
 /vendor/lib/modules/msm_video.ko: /vendor/lib/modules/msm-mmrm.ko /vendor/lib/modules/mdt_loader.ko
+/vendor/lib/modules/nothing_readahead_trace.ko:
 /vendor/lib/modules/qcom_q6v5_pas.ko: /vendor/lib/modules/qcom_ramdump.ko /vendor/lib/modules/qcom_pil_info.ko /vendor/lib/modules/qcom_q6v5.ko /vendor/lib/modules/qcom_sysmon.ko /vendor/lib/modules/mdt_loader.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/cnss_prealloc.ko:
 /vendor/lib/modules/lpass_cdc_va_macro_dlkm.ko: /vendor/lib/modules/swr_ctrl_dlkm.ko /vendor/lib/modules/lpass_cdc_dlkm.ko /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/swr_dlkm.ko /vendor/lib/modules/wcd_core_dlkm.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
@@ -74,8 +76,8 @@
 /vendor/lib/modules/rq_stats.ko:
 /vendor/lib/modules/spmi-glink-debug.ko: /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/phy-msm-ssusb-qmp.ko:
+/vendor/lib/modules/qti_battery_charger_main.ko: /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/msm_kgsl.ko: /vendor/lib/modules/msm_performance.ko /vendor/lib/modules/mdt_loader.ko
-/vendor/lib/modules/hdcp_qseecom.ko: /vendor/lib/modules/qseecom-mod.ko
 /vendor/lib/modules/mhi_dev_netdev.ko: /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/cdc-wdm.ko:
 /vendor/lib/modules/qcom_lpm.ko:
@@ -104,7 +106,7 @@
 /vendor/lib/modules/gh_irq_lend.ko:
 /vendor/lib/modules/q6_pdr_dlkm.ko: /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/coresight-replicator.ko: /vendor/lib/modules/coresight.ko
-/vendor/lib/modules/camera.ko: /vendor/lib/modules/leds-qti-flash.ko /vendor/lib/modules/qti_battery_charger.ko /vendor/lib/modules/synx-driver.ko /vendor/lib/modules/qcom_ipc_lite.ko /vendor/lib/modules/msm-mmrm.ko /vendor/lib/modules/mdt_loader.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/panel_event_notifier.ko
+/vendor/lib/modules/camera.ko: /vendor/lib/modules/leds-qti-flash.ko /vendor/lib/modules/qti_battery_charger_main.ko /vendor/lib/modules/synx-driver.ko /vendor/lib/modules/qcom_ipc_lite.ko /vendor/lib/modules/msm-mmrm.ko /vendor/lib/modules/mdt_loader.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/core_hang_detect.ko:
 /vendor/lib/modules/nothing_secure_element.ko:
 /vendor/lib/modules/qti-adc-tm.ko:
@@ -136,7 +138,7 @@
 /vendor/lib/modules/fsa4480-i2c.ko: /vendor/lib/modules/ucsi_glink.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/hardware_id.ko:
 /vendor/lib/modules/ipa_fmwk.ko:
-/vendor/lib/modules/i2c-msm-geni.ko:
+/vendor/lib/modules/i2c-msm-geni.ko: /vendor/lib/modules/gpi.ko
 /vendor/lib/modules/sys_pm_vx.ko: /vendor/lib/modules/subsystem_sleep_stats.ko /vendor/lib/modules/soc_sleep_stats.ko
 /vendor/lib/modules/lzo-rle.ko:
 /vendor/lib/modules/nothing_task_meminfo.ko:
@@ -208,9 +210,9 @@
 /vendor/lib/modules/shared_rail_scmi.ko: /vendor/lib/modules/msm_performance.ko
 /vendor/lib/modules/nvmem_qfprom.ko:
 /vendor/lib/modules/videocc-waipio.ko:
-/vendor/lib/modules/machine_dlkm.ko: /vendor/lib/modules/wsa883x_dlkm.ko /vendor/lib/modules/wsa881x_dlkm.ko /vendor/lib/modules/lpass_cdc_rx_macro_dlkm.ko /vendor/lib/modules/wcd937x_dlkm.ko /vendor/lib/modules/audpkt_ion_dlkm.ko /vendor/lib/modules/swr_ctrl_dlkm.ko /vendor/lib/modules/lpass_cdc_dlkm.ko /vendor/lib/modules/wcd938x_dlkm.ko /vendor/lib/modules/mbhc_dlkm.ko /vendor/lib/modules/fsa4480-i2c.ko /vendor/lib/modules/ucsi_glink.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/wcd9xxx_dlkm.ko /vendor/lib/modules/audio_prm_dlkm.ko /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/swr_dlkm.ko /vendor/lib/modules/wcd_core_dlkm.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
+/vendor/lib/modules/machine_dlkm.ko: /vendor/lib/modules/lpass_cdc_rx_macro_dlkm.ko /vendor/lib/modules/wcd937x_dlkm.ko /vendor/lib/modules/wsa883x_dlkm.ko /vendor/lib/modules/wsa881x_dlkm.ko /vendor/lib/modules/audpkt_ion_dlkm.ko /vendor/lib/modules/swr_ctrl_dlkm.ko /vendor/lib/modules/lpass_cdc_dlkm.ko /vendor/lib/modules/wcd938x_dlkm.ko /vendor/lib/modules/mbhc_dlkm.ko /vendor/lib/modules/fsa4480-i2c.ko /vendor/lib/modules/ucsi_glink.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/wcd9xxx_dlkm.ko /vendor/lib/modules/audio_prm_dlkm.ko /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/swr_dlkm.ko /vendor/lib/modules/wcd_core_dlkm.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/cpu_voltage_cooling.ko:
-/vendor/lib/modules/msm_drm.ko: /vendor/lib/modules/hdcp_qseecom.ko /vendor/lib/modules/altmode-glink.ko /vendor/lib/modules/qseecom-mod.ko /vendor/lib/modules/gh_irq_lend.ko /vendor/lib/modules/gh_mem_notifier.ko /vendor/lib/modules/msm-mmrm.ko /vendor/lib/modules/dwc3-msm.ko /vendor/lib/modules/redriver.ko /vendor/lib/modules/fsa4480-i2c.ko /vendor/lib/modules/ucsi_glink.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/msm_ext_display.ko /vendor/lib/modules/panel_event_notifier.ko
+/vendor/lib/modules/msm_drm.ko: /vendor/lib/modules/hdcp.ko /vendor/lib/modules/smcinvoke_mod.ko /vendor/lib/modules/qseecom-mod.ko /vendor/lib/modules/altmode-glink.ko /vendor/lib/modules/gh_irq_lend.ko /vendor/lib/modules/gh_mem_notifier.ko /vendor/lib/modules/msm-mmrm.ko /vendor/lib/modules/dwc3-msm.ko /vendor/lib/modules/redriver.ko /vendor/lib/modules/fsa4480-i2c.ko /vendor/lib/modules/ucsi_glink.ko /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/msm_ext_display.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/swr_dlkm.ko:
 /vendor/lib/modules/hvc_gunyah.ko:
 /vendor/lib/modules/slimbus.ko:
@@ -256,7 +258,6 @@
 /vendor/lib/modules/wlan_firmware_service.ko: /vendor/lib/modules/qmi_helpers.ko
 /vendor/lib/modules/mmrm_test_module.ko: /vendor/lib/modules/msm-mmrm.ko
 /vendor/lib/modules/qcom_esoc.ko: /vendor/lib/modules/qcom_sysmon.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
-/vendor/lib/modules/qti_battery_charger.ko: /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/pinctrl-spmi-mpp.ko:
 /vendor/lib/modules/rmnet_shs.ko: /vendor/lib/modules/rmnet_core.ko /vendor/lib/modules/rmnet_ctl.ko /vendor/lib/modules/ipa_fmwk.ko /vendor/lib/modules/qmi_helpers.ko
 /vendor/lib/modules/wcd_core_dlkm.ko:
@@ -276,6 +277,7 @@
 /vendor/lib/modules/pci-msm-drv.ko: /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/msm_sharedmem.ko:
 /vendor/lib/modules/stm_console.ko: /vendor/lib/modules/stm_core.ko
+/vendor/lib/modules/hdcp.ko: /vendor/lib/modules/smcinvoke_mod.ko /vendor/lib/modules/qseecom-mod.ko
 /vendor/lib/modules/ipanetm.ko: /vendor/lib/modules/ipam.ko /vendor/lib/modules/gsim.ko /vendor/lib/modules/ipa_fmwk.ko /vendor/lib/modules/mdt_loader.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/pmic_glink.ko: /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/mhi_dev_drv.ko: /vendor/lib/modules/mhi_dev_net.ko /vendor/lib/modules/ep_pcie_drv.ko /vendor/lib/modules/pci-edma.ko /vendor/lib/modules/ipa_fmwk.ko
