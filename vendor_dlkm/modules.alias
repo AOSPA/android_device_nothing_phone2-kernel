@@ -23,8 +23,8 @@ alias of:N*T*Cqcom,ufs-phy-qmp-v4-lahainaC* phy_qcom_ufs_qmp_v4_lahaina
 alias MHI_UCI mhi_dev_uci
 alias of:N*T*Cqcom,msm-eud eud
 alias of:N*T*Cqcom,msm-eudC* eud
-alias crypto-lzo lzo
 alias lzo lzo
+alias crypto-lzo lzo
 alias of:N*T*Cqcom,adsp-notify q6_notifier_dlkm
 alias of:N*T*Cqcom,adsp-notifyC* q6_notifier_dlkm
 alias of:N*T*Cqcom,msm-imem nothing_restart_handler
@@ -422,8 +422,8 @@ alias platform:i2c_geni i2c_msm_geni
 alias of:N*T*Cqcom,i2c-geni i2c_msm_geni
 alias of:N*T*Cqcom,i2c-geniC* i2c_msm_geni
 alias platform:sys_pm_vx sys_pm_vx
-alias crypto-lzo-rle lzo_rle
 alias lzo-rle lzo_rle
+alias crypto-lzo-rle lzo_rle
 alias char-major-21-* sg
 alias usbfunc:cser usb_f_cdev
 alias of:N*T*Cqcom,diwali-videocc videocc_diwali
