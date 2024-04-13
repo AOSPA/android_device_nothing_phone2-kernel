@@ -717,6 +717,8 @@ alias pci:v000017CBd00001107sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd0000110Asv*sd*bc*sc*i* cnss2
 alias pwm:pwm-lpg pwm_qti_lpg
 alias i2c:haptic_hv haptic
+alias of:N*T*Cqcom,pcie-i2c-ntn3 pci_msm_drv
+alias of:N*T*Cqcom,pcie-i2c-ntn3C* pci_msm_drv
 alias of:N*T*Cqcom,sharedmem-uio msm_sharedmem
 alias of:N*T*Cqcom,sharedmem-uioC* msm_sharedmem
 alias qcom,pmic-glink pmic_glink
