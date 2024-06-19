@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72671495_3f0cebfd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2024-06-19T15:03:28Z",
+      "side": 1,
+      "message": "tf why merged. this is wip, I hadn\u0027t updated the dts. also we bypass gerrit for kernel prebuilts.",
+      "revId": "c3f3605a95f0bb27a21bb18a52d49a1b07371b2b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ],
   "submitRequirementResults": []
 }
