@@ -235,8 +235,6 @@ alias platform:swr-mstr swr_ctrl_dlkm
 alias of:N*T*Cqcom,cpu-vendor-hooks qcom_cpu_vendor_hooks
 alias of:N*T*Cqcom,cpu-vendor-hooksC* qcom_cpu_vendor_hooks
 alias i2c:aw20036_led leds_aw20036
-alias of:N*T*Cqcom,minidump minidump
-alias of:N*T*Cqcom,minidumpC* minidump
 alias amba:d???BB961 coresight_tmc
 alias amba:d???BB9E8 coresight_tmc
 alias amba:d???BB9E9 coresight_tmc
@@ -254,8 +252,6 @@ alias of:N*T*Cqcom,usb-ssphy-qmp-dp-combo phy_msm_ssusb_qmp
 alias of:N*T*Cqcom,usb-ssphy-qmp-dp-comboC* phy_msm_ssusb_qmp
 alias of:N*T*Cqcom,usb-ssphy-qmp-usb3-or-dp phy_msm_ssusb_qmp
 alias of:N*T*Cqcom,usb-ssphy-qmp-usb3-or-dpC* phy_msm_ssusb_qmp
-alias of:N*T*Cqcom,mem-offline mem_offline
-alias of:N*T*Cqcom,mem-offlineC* mem_offline
 alias of:N*T*Cqcom,kgsl-3d0 msm_kgsl
 alias of:N*T*Cqcom,kgsl-3d0C* msm_kgsl
 alias usb:v*p*d*dc*dsc*dp*ic02isc09ip*in* cdc_wdm
@@ -941,6 +937,8 @@ alias pci:v000017CBd00001101sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001103sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001107sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd0000110Asv*sd*bc*sc*i* cnss2
+alias of:N*T*Cqcom,crypto crypto_qti_common
+alias of:N*T*Cqcom,cryptoC* crypto_qti_common
 alias of:N*T*Cqcom,ipcc qcom_ipcc
 alias of:N*T*Cqcom,ipccC* qcom_ipcc
 alias pwm:pwm-lpg pwm_qti_lpg

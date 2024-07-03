@@ -159,7 +159,6 @@ qti_cpufreq_cdev.ko
 qti_devfreq_cdev.ko
 btpower.ko
 bt_fm_slim.ko
-qcom_edac.ko
 qcom-cpufreq-hw-debug.ko
 qcom_lpm.ko
 sdhci-msm.ko
@@ -197,8 +196,6 @@ nvmem_qfprom.ko
 icc-test.ko
 qnoc-parrot.ko
 nothing_bootloader_log.ko
-nothing_disk_usage.ko
-nothing_readahead_trace.ko
 nothing_restart_handler.ko
 nothing_task_meminfo.ko
 nothing_secure_element.ko
