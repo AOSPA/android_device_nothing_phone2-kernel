@@ -20,6 +20,7 @@
 /lib/modules/eud.ko: /lib/modules/qcom-scm.ko
 /lib/modules/stm_p_basic.ko: /lib/modules/stm_core.ko
 /lib/modules/qcom-dload-mode.ko: /lib/modules/qcom-scm.ko
+/lib/modules/rmnet_sch.ko:
 /lib/modules/qce50.ko: /lib/modules/sps_drv.ko /lib/modules/qcom_ipc_logging.ko
 /lib/modules/lzo.ko:
 /lib/modules/mbhc_dlkm.ko: /lib/modules/fsa4480-i2c.ko /lib/modules/ucsi_glink.ko /lib/modules/pmic_glink.ko /lib/modules/qti-regmap-debugfs.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/smem.ko
@@ -177,7 +178,9 @@
 /lib/modules/boot_stats.ko:
 /lib/modules/coresight-tpdm.ko: /lib/modules/coresight.ko /lib/modules/qcom-scm.ko
 /lib/modules/plh_scmi.ko: /lib/modules/msm_performance.ko /lib/modules/qcom-pmu-lib.ko /lib/modules/cpuprime_online_helper.ko /lib/modules/qcom_llcc_pmu.ko /lib/modules/sched-walt.ko /lib/modules/qcom-cpufreq-hw.ko
+/lib/modules/msm-cvp.ko: /lib/modules/synx-driver.ko /lib/modules/qcom_ipc_lite.ko /lib/modules/msm-mmrm.ko /lib/modules/llcc-qcom.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/mdt_loader.ko /lib/modules/qcom-scm.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_dbl.ko /lib/modules/gh_msgq.ko /lib/modules/gh_arm_drv.ko /lib/modules/debug-regulator.ko
 /lib/modules/wcd937x_dlkm.ko: /lib/modules/mbhc_dlkm.ko /lib/modules/fsa4480-i2c.ko /lib/modules/ucsi_glink.ko /lib/modules/pmic_glink.ko /lib/modules/qti-regmap-debugfs.ko /lib/modules/wcd9xxx_dlkm.ko /lib/modules/audio_prm_dlkm.ko /lib/modules/spf_core_dlkm.ko /lib/modules/gpr_dlkm.ko /lib/modules/snd_event_dlkm.ko /lib/modules/q6_notifier_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/swr_dlkm.ko /lib/modules/wcd_core_dlkm.ko /lib/modules/pinctrl-msm.ko /lib/modules/qcom-scm.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/smem.ko
+/lib/modules/rmnet_perf.ko: /lib/modules/rmnet_shs.ko /lib/modules/rmnet_core.ko /lib/modules/rmnet_ctl.ko /lib/modules/ipa_fmwk.ko /lib/modules/qmi_helpers.ko /lib/modules/qcom_ipc_logging.ko
 /lib/modules/coresight-tpda.ko: /lib/modules/coresight.ko
 /lib/modules/fsa4480-i2c.ko: /lib/modules/ucsi_glink.ko /lib/modules/pmic_glink.ko /lib/modules/qti-regmap-debugfs.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/smem.ko
 /lib/modules/hardware_id.ko:
@@ -306,6 +309,7 @@
 /lib/modules/ufs_qcom.ko: /lib/modules/ufshcd-crypto-qti.ko /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-hwkm.ko /lib/modules/hwkm.ko /lib/modules/tmecom-intf.ko /lib/modules/qcom-scm.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/phy-qcom-ufs.ko /lib/modules/debug-regulator.ko
 /lib/modules/adsp_loader_dlkm.ko: /lib/modules/spf_core_dlkm.ko /lib/modules/gpr_dlkm.ko /lib/modules/snd_event_dlkm.ko /lib/modules/q6_notifier_dlkm.ko /lib/modules/q6_pdr_dlkm.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/smem.ko
 /lib/modules/coresight-funnel.ko: /lib/modules/coresight.ko
+/lib/modules/rmnet_aps.ko: /lib/modules/rmnet_core.ko /lib/modules/rmnet_ctl.ko /lib/modules/ipa_fmwk.ko /lib/modules/qmi_helpers.ko /lib/modules/qcom_ipc_logging.ko
 /lib/modules/nothing_bootloader_log.ko:
 /lib/modules/qdss_bridge.ko: /lib/modules/usb_f_qdss.ko /lib/modules/usb_bam.ko /lib/modules/sps_drv.ko /lib/modules/dwc3-msm.ko /lib/modules/redriver.ko /lib/modules/mhi.ko /lib/modules/pci-msm-drv.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/smem.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/debug-regulator.ko
 /lib/modules/leds-qti-tri-led.ko: /lib/modules/pwm-qti-lpg.ko /lib/modules/qpnp-pbs.ko
