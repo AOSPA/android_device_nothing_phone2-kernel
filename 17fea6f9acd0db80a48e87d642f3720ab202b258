@@ -16,6 +16,23 @@
       "message": "ready to merge",
       "revId": "17fea6f9acd0db80a48e87d642f3720ab202b258",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "217a9032_2410fd36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-07-14T09:18:49Z",
+      "side": 1,
+      "message": "hold until android12-5.10 rebase is pushed to primary",
+      "revId": "17fea6f9acd0db80a48e87d642f3720ab202b258",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
